@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://eventtemplate.satrdays.org" # Change this to the base url after netlify deploy, e.g. "https://cardiff2019.satrdays.org/"
+baseurl = "https://santiago2020.satrdays.org" # Change this to the base url after netlify deploy, e.g. "https://cardiff2019.satrdays.org/"
 languageCode = "en-us"
 title = "satRday"
 theme = ["hugo-satrdays-theme", "hugo-agency-theme"]
@@ -20,8 +20,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "satRday [My City]"
-  description = "R conference in [My City]"
+  name = "satRday Santiago"
+  description = "Conferencia de R en Santiago de Chile"
   # email = "your@email.com"
 
   # Link custom assets relative to /static
@@ -35,8 +35,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # 404 error customization
   [params.error404]
-    heading = "Page couldn't be found"
-    text = "Please visit [this page](/)"
+    heading = "Página no encontrada"
+    text = "Por favor, visita santiago2020.satrdays.org"
 
   # Optional piwik tracking
   #[params.analytics.piwik]
@@ -80,107 +80,107 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "satRday [My City]"
-    subtitle = "A conference for users of the R Language on [Conference Date]"
+    title = "satRday Santiago"
+    subtitle = "Una conferencia de y para la comunidad de R en Santiago de Chile"
     bg = true
-    buttonText = "Tell me more"
+    buttonText = "Más"
 
 
   # About [Services] section
   [params.services]
     enable = true
-    title = "About"
-    subtitle = "Conference Details"
+    title = "Acerca de"
+    subtitle = "Detalles"
 
     [[params.services.row]]
 
     [[params.services.row.list]]
       icon = "fa-clock-o"
-      title = "Details"
-      description = "[Conference Date] at [Conference Location]"
+      title = "Detalles"
+      description = "18 de abril en EY University"
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-laptop"
-      title = "Hands on"
-      description = "Practical applications and workshop sessions"
+      title = "Aplicaciones"
+      description = "Conoce aplicaciones prácticas de R"
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-graduation-cap"
-      title = "Learning"
-      description = "Gain knowledge from your peers and experienced professionals"
+      title = "Aprendizaje"
+      description = "Aprende de otras personas de la comunidad"
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-users"
-      title = "Community Lead"
-      description = "Community organised, community focussed"
+      title = "Comunidad"
+      description = "Un evento organizado por y para la comunidad"
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-money"
-      title = "Affordable"
-      description = "Only [£30]"
+      title = "Asequible"
+      description = "El enveto del sábado es gratuito"
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-universal-access"
-      title = "Accessible"
-      description = "Inclusive, supportive and respectful environment"
+      title = "Accesible"
+      description = "Un ambiente inclusivo y respetuoso"
       url = "#"
 
   # Register section
   # You only need ONE of these active
-  [params.tito]
-    enable = true
-    title = "Register"
-    bg = true
-    accountevent = "ultimateconf/2013"
+  #[params.tito]
+  #  enable = true
+  #  title = "Register"
+  #  bg = true
+  #  accountevent = "ultimateconf/2013"
       # Go to https://ti.to/ and find the account (under your user) and event pair string e.g. "cardiff-satrday/2018"
       # include botht the account and event in a string, seperated by /, with no spaces
 
-  [params.eventbrite]
-    enable = true
-    title = "Register"
-    bg = true
-    eid = "32416000129" 
-      # Go to https://www.eventbrite.co.uk/support/articles/en_US/How_To/how-to-sell-eventbrite-tickets-registrations-on-your-website-using-embeddable-widgets?lg=en_GB 
+  #[params.eventbrite]
+  #  enable = true
+  #  title = "Register"
+  #  bg = true
+  #  eid = "32416000129"
+      # Go to https://www.eventbrite.co.uk/support/articles/en_US/How_To/how-to-sell-eventbrite-tickets-registrations-on-your-website-using-embeddable-widgets?lg=en_GB
       # Follow instructions to discover your 'Website Integration' embeddable iframe
       # Take ONLY the numeric string between "eid=" and "&ref=etckt"
       # Supply this string as the value to `eid` above
 
-  [params.tickettailor]
-    enable = true
-    title = "Register"
-    bg = true
-    eventviewid = "162430"
+  #[params.tickettailor]
+  #  enable = true
+  #  title = "Register"
+  #  bg = true
+  #  eventviewid = "162430"
       # Go to www.tickettailor.com and open your event page
       # Note the number at the end of the url e.g. https://www.tickettailor.com/event/view/id/162430
       # Supply the number ONLY in `eventviewid`
-  
+
   # Call for papers section
-  [params.callforpapers]
-    enable = true
-    title = "Call For Papers"
-    bg = false
-    CfSpage = "/test3490"
+  #[params.callforpapers]
+  #  enable = true
+  #  title = "Call For Papers"
+  #  bg = false
+  #  CfSpage = "/test3490"
       # Go to Organizer > My Events > Dashboard and copy the "CfS Page" string into the `CfSpage` value
-    dates = "09 Aug - 21 Sep 2018"
-  
+  #  dates = "09 Aug - 21 Sep 2018"
+
   # Hackathon section
   [params.hackathon]
     enable = true
     bg = false
-    title = "Hackathon"
-    subtitle="Can you _Hack_ it?"
-    brief1="You _can_ put markdown in the briefs section" 
-    brief2="But you __MUST__ hardcode html links <a href= 'www.google.com' > google  </a> for further info."
-    location= "The place we're going it"
-    dates = "15 November 2019"
-    times= "13:00-17:30"  
-    website_name="google"
-    website_url="www.google.com"
+    title = "Evento previo: 17 de abril"
+    subtitle="¡Pronto más detalles!"
+  #  brief1="You _can_ put markdown in the briefs section"
+  #  brief2="But you __MUST__ hardcode html links <a href= 'www.google.com' > google  </a> for further info."
+  #  location= "The place we're going it"
+  #  dates = "17 November 2019"
+  #  times= "13:00-17:30"
+  #  website_name="google"
+  #  website_url="www.google.com"
 
   # Talk [Portfolio] section
   [params.portfolio]
@@ -189,8 +189,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
-    title = "Talks"
-    subtitle = "Who's saying what"
+    title = "Charlas"
+    subtitle = "Por anunciar"
     bg = true
 
     [params.portfolio.modal]
@@ -202,79 +202,79 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   # Schedule section
   [params.schedule]
     enable = true
-    title = "Schedule"
+    title = "Programa"
     bg = false
 
   # Important Dates [About] section
   [params.about]
     enable = true
-    title = "Important Dates"
-    subtitle = "Be prepared!"
-    endpoint = "Conference"
+    title = "Fechas importantes"
+    subtitle = "¡Atención!"
+    endpoint = "satRday Santiago 2020"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
       img = "1.jpg"
-      date = "First Date"
-      title = "Initial Announcement"
-      description = "We're organising a conference!"
+      date = "20 de Febrero 2020"
+      title = "Anuncio inicial"
+      description = "¡Se viene la segunda edición de satRday Santiago!"
 
     [[params.about.events]]
       img = "2.jpg"
-      date = "Second Date"
-      title = "Early Bird Ticket Sales"
-      description = "Early round of tickets now available at discount"
+      date = ""
+      title = "Registro"
+      description = "..."
 
     [[params.about.events]]
       img = "3.jpg"
-      date = "Third Date"
-      title = "Call For Papers"
-      description = "Submissions for speakers are now open!"
+      date = "Febrero 2020"
+      title = "Llamado a presentación de trabajos"
+      description = "¡Envía tu propuesta!"
 
     [[params.about.events]]
       img = "4.jpg"
-      date = "Fourth Date"
-      title = "Call For Papers Ends"
-      description = "Cut off date for speaker submissions"
-  
+      date = "15 de marzo 2020"
+      title = "Fin envío de propuestas"
+      description = "Cierre del llamado a presentación de trabajos"
+
   # Location section
   [params.location]
     enable = true
-    title = "Location title"
+    title = "Ubicación"
     bg = true
-    iframesrc = "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12770.336629178193!2d174.7680403!3d-36.8524341!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x868a73f26ed3e621!2sDepartment+of+Statistics%2C+University+of+Auckland!5e0!3m2!1sen!2suk!4v1533231461829"
+    iframesrc = "https://www.google.com/maps/place/Cerro+El+Plomo+6000,+Las+Condes,+Regi%C3%B3n+Metropolitana/@-33.4035641,-70.5727861,17z/data=!3m1!4b1!4m5!3m4!1s0x9662ced906907077:0xd8f748dc2aed271!8m2!3d-33.4035641!4d-70.5706028"
 
   # Team section
   [params.team]
     enable = true
     # Possibility to center items
     #center = true
-    title = "Team"
-    subtitle = "The people putting it together"
+    title = "Equipo"
+    subtitle = "Las personas detrás del evento"
     bg = false
     description = ""
     speakers = "Speakers"
-    
+
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
       img = "faceholder.png"
-      name = "Organiser Name 1"
-      position = "Organiser Position 1"
-      reportsTo = ""
-      livesIn = "[Munich, Germany](#some-maps-url)"
-      scope = [
-        "Role 1 for [thing 1](#)",
-        "Role 2 for [thing 2](#)",
-        "Role 3 for [thing 3](#)"
-      ]
+      name = "Riva Quiroga"
+      position = "R-Ladies Santiago/Valparaíso"
+      #reportsTo = ""
+      #livesIn = "[Munich, Germany](#some-maps-url)"
+      #scope = [
+      #  "Role 1 for [thing 1](#)",
+      #  "Role 2 for [thing 2](#)",
+      #  "Role 3 for [thing 3](#)"
+      #]
       # For bio markdown and even multiline strings are available.
-      bio = """I do things,
-      and stuff"""
+      #bio = """I do things,
+      #and stuff"""
       social = [
         ["fa-twitter", "#"],
         ["fa-github", "#"],
@@ -283,8 +283,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
     [[params.team.members]]
       img = "faceholder.png"
-      name = "Organiser Name 2"
-      position = "Organiser Position 2"
+      name = "Patricio Cofré"
+      position = "Grupo de Usuarios de R - Santiago"
       social = [
         ["fa-twitter", "#"],
         ["fa-github", "#"],
@@ -293,14 +293,23 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
     [[params.team.members]]
       img = "faceholder.png"
-      name = "Organiser Name 3"
-      position = "Organiser Position 3"
+      name = "Gabriela Sandoval"
+      position = "R-Ladies Santiago"
       social = [
         ["fa-twitter", "#"],
         ["fa-github", "#"],
         ["fa-linkedin", "#"]
       ]
 
+      [[params.team.members]]
+        img = "faceholder.png"
+        name = "Joshua Kunst"
+        position = "Grupo de Usuarios de R - Santiago"
+        social = [
+          ["fa-twitter", "#"],
+          ["fa-github", "#"],
+          ["fa-linkedin", "#"]
+        ]
   # Client section
   [params.clients_list]
     enable = true
@@ -314,24 +323,24 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # Replace them with your clients's logos.
     # Suggestion: .svg in the size of 280px*80px looks good
     [[params.clients]]
-      logo = "envato.jpg"
+      logo = ""
+      link = "https://metricarts.com/"
+
+    [[params.clients]]
+      logo = ""
+      link = "https://www.microsoft.com/es-cl/"
+
+    [[params.clients]]
+      logo = ""
       link = "#"
 
     [[params.clients]]
-      logo = "designmodo.jpg"
+      logo = ""
       link = "#"
 
-    [[params.clients]]
-      logo = "themeforest.jpg"
-      link = "#"
-
-    [[params.clients]]
-      logo = "creative-market.jpg"
-      link = "#"
-  
   [params.diversity]
     enable = true
-    title = "Diversity"
+    title = "Diversidad"
     bg = true
 
   # Contact section
@@ -360,7 +369,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "your@email.com"
+    email = "satrdaysantiago@gmail.com"
 
     # Success and error message overwrite for async contact form
     #thanks = "Thank you for awesomely contacting us."
@@ -402,7 +411,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
     [[params.footer.social]]
       icon = "fa-twitter"
-      link = "https://twitter.com/satrdays_org"
+      link = "https://twitter.com/satrdaysantiago"
       title = "Twitter"
 
     [[params.footer.social]]
