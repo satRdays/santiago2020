@@ -1,13 +1,13 @@
 modalID: 2
-title: "Second Talk"
-subtitle: "Second Subtitle"
-date: 1970-01-01
-startsAt: 00:01
-endsAt: 00:02
+title: "Por anunciar"
+subtitle: ""
+date: 2020-04-18
+startsAt: 10:30
+endsAt: 11:00
 img: roundicons.png
-preview: faceholder.png
-client: Speaker Two
+preview:
+client:
 clientLink: "#"
 category: Category 2
-description: "Describe 2"
+description: "Por anunciar"
 talk: true

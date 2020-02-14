@@ -52,12 +52,12 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     brand = "satRday"
     # Optional logo as brand stored in img/
     logo = "logo.png"
-    services = "About"
-    portfolio = "Talks"
-    eventbrite = "Register"
-    schedule = "Schedule"
-    team = "People"
-    contact = "Get involved"
+    services = "Acerca de"
+    portfolio = "Charlas"
+    eventbrite = "Registro"
+    about = "Calendario"
+    team = "Equipo"
+    contact = "Contáctanos"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
@@ -90,7 +90,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   [params.services]
     enable = true
     title = "Acerca de"
-    subtitle = "Detalles"
+    #subtitle = "Detalles de esta segunda ediciónde satRday Santiago"
 
     [[params.services.row]]
 
@@ -121,7 +121,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     [[params.services.row.list]]
       icon = "fa-money"
       title = "Asequible"
-      description = "El enveto del sábado es gratuito"
+      description = "El evento del sábado es gratuito"
       url = "#"
 
     [[params.services.row.list]]
@@ -172,9 +172,9 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   [params.hackathon]
     enable = true
     bg = false
-    title = "Evento previo: 17 de abril"
+    title = "Evento pre-conferencia: viernes 17 de abril"
     subtitle="¡Pronto más detalles!"
-  #  brief1="You _can_ put markdown in the briefs section"
+    brief1=""
   #  brief2="But you __MUST__ hardcode html links <a href= 'www.google.com' > google  </a> for further info."
   #  location= "The place we're going it"
   #  dates = "17 November 2019"
@@ -210,39 +210,46 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     enable = true
     title = "Fechas importantes"
     subtitle = "¡Atención!"
-    endpoint = "satRday Santiago 2020"
+    endpoint = "satRday Santiago 18/04/2020"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
-      img = "1.jpg"
-      date = "20 de Febrero 2020"
+      img = "anuncio.png"
+      date = "Febrero 2020"
       title = "Anuncio inicial"
       description = "¡Se viene la segunda edición de satRday Santiago!"
 
     [[params.about.events]]
-      img = "2.jpg"
+      img = "tickets.png"
       date = ""
-      title = "Registro"
-      description = "..."
+      title = "Registro para el evento del sábado"
+      description = "No te quedes si tu cupo"
 
     [[params.about.events]]
-      img = "3.jpg"
-      date = "Febrero 2020"
+      img = "microfono.png"
+      date = ""
       title = "Llamado a presentación de trabajos"
       description = "¡Envía tu propuesta!"
 
     [[params.about.events]]
-      img = "4.jpg"
+      img = "deadline.png"
       date = "15 de marzo 2020"
       title = "Fin envío de propuestas"
       description = "Cierre del llamado a presentación de trabajos"
+
+      [[params.about.events]]
+        img = "equipo.png"
+        date = "abril 2020"
+        title = "Registro para el evento del viernes"
+        description = "Trabaja en conjunto con la comunidad de R"
 
   # Location section
   [params.location]
     enable = true
     title = "Ubicación"
+    subtitle = "A dos cuadras del metro Manquehue"
     bg = true
     iframesrc = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.7546712515677!2d-70.57278611988689!3d-33.40356408088149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662ced906907077%3A0xd8f748dc2aed271!2sCerro%20El%20Plomo%206000%2C%20Las%20Condes%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1581615134674!5m2!1ses-419!2scl"
 
@@ -258,11 +265,12 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     speakers = "Speakers"
 
 
+
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
-      img = "faceholder.png"
+      img = "riva-quiroga.jpeg"
       name = "Riva Quiroga"
       position = "R-Ladies Santiago/Valparaíso"
       #reportsTo = ""
@@ -276,39 +284,38 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       #bio = """I do things,
       #and stuff"""
       social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+      ["fa-twitter", "https://twitter.com/rivaquiroga"],
+      ["fa-github", "https://github.com/rivaquiroga"]
       ]
 
     [[params.team.members]]
-      img = "faceholder.png"
+      img = "patricio-cofre.jpeg"
       name = "Patricio Cofré"
       position = "Grupo de Usuarios de R - Santiago"
       social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+      ["fa-twitter", "https://twitter.com/pcofre"],
+      ["fa-laptop", "http://metricarts.com"],
+      ["fa-linkedin", "http://www.linkedin.com/in/pcofre"]
       ]
 
     [[params.team.members]]
-      img = "faceholder.png"
+      img = "gaby-sandoval.jpeg"
       name = "Gabriela Sandoval"
       position = "R-Ladies Santiago"
       social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+      ["fa-twitter", "https://twitter.com/GabySandovalM"],
+      ["fa-github", "#"],
+      ["fa-linkedin", "#"]
       ]
 
       [[params.team.members]]
-        img = "faceholder.png"
+        img = "joshua-kunst.jpeg"
         name = "Joshua Kunst"
         position = "Grupo de Usuarios de R - Santiago"
         social = [
-          ["fa-twitter", "#"],
-          ["fa-github", "#"],
-          ["fa-linkedin", "#"]
+        ["fa-twitter", "https://twitter.com/jbkunst"],
+        ["fa-github", "https://github.com/jbkunst"],
+        ["fa-linkedin", "https://www.linkedin.com/in/joshuakunst/"]
         ]
   # Client section
   [params.clients_list]
@@ -323,11 +330,11 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # Replace them with your clients's logos.
     # Suggestion: .svg in the size of 280px*80px looks good
     [[params.clients]]
-      logo = ""
+      logo = "ey_metricarts.png"
       link = "https://metricarts.com/"
 
     [[params.clients]]
-      logo = ""
+      logo = "microsoft.png"
       link = "https://www.microsoft.com/es-cl/"
 
     [[params.clients]]
@@ -340,13 +347,13 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   [params.diversity]
     enable = true
-    title = "Diversidad"
+    title = "Código de conducta"
     bg = true
 
   # Contact section
   [params.contact]
     enable = true
-    title = "Contact us"
+    title = "Contacto"
     subtitle  = "Lorem ipsum dolor sit amet consectetur."
     buttonText = "Send message"
     # netlify = true
