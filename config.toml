@@ -285,7 +285,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       social = [
       ["fa-twitter", "https://twitter.com/rivaquiroga"],
       ["fa-github", "https://github.com/rivaquiroga"]
-      ["fa-laptop", "http://rivaquiroga.cl"],
+      ["fa-laptop", "http://rivaquiroga.cl"]
       ]
 
     [[params.team.members]]
@@ -304,7 +304,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       position = "R-Ladies Santiago"
       social = [
       ["fa-twitter", "https://twitter.com/GabySandovalM"],
-      ["fa-github", "https://github.com/GabySandovalM"],
+      ["fa-github", "https://github.com/GabySandovalM"]
       ]
 
       [[params.team.members]]
