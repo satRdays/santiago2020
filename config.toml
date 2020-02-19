@@ -96,20 +96,20 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
     [[params.services.row.list]]
       icon = "fa-clock-o"
-      title = "Detalles"
-      description = "18 de abril en EY University"
-      url = "#"
-
-    [[params.services.row.list]]
-      icon = "fa-laptop"
-      title = "Aplicaciones"
-      description = "Conoce aplicaciones prácticas de R"
+      title = "Cuándo"
+      description = "18 de abril en EYU"
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-graduation-cap"
-      title = "Aprendizaje"
-      description = "Aprende de otras personas de la comunidad"
+      title = "Conoce"
+      description = "Aprende sobre los últimos desarrollos de R"
+      url = "#"
+
+    [[params.services.row.list]]
+      icon = "fa-laptop"
+      title = "Útil"
+      description = "Conoce aplicaciones prácticas de R"
       url = "#"
 
     [[params.services.row.list]]
@@ -121,7 +121,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     [[params.services.row.list]]
       icon = "fa-money"
       title = "Asequible"
-      description = "El evento del sábado es gratuito"
+      description = "Evento gratuito"
       url = "#"
 
     [[params.services.row.list]]
@@ -159,11 +159,11 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       # Note the number at the end of the url e.g. https://www.tickettailor.com/event/view/id/162430
       # Supply the number ONLY in `eventviewid`
 
-  # Call for papers section
-  #[params.callforpapers]
-  #  enable = true
-  #  title = "Call For Papers"
-  #  bg = false
+  #Call for papers section
+  [params.callforpapers]
+    enable = true
+    title = "Presentación de propuestas"
+    bg = false
   #  CfSpage = "/test3490"
       # Go to Organizer > My Events > Dashboard and copy the "CfS Page" string into the `CfSpage` value
   #  dates = "09 Aug - 21 Sep 2018"
@@ -173,8 +173,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     enable = true
     bg = false
     title = "Evento pre-conferencia: viernes 17 de abril"
-    subtitle="¡Pronto más detalles!"
-    brief1=""
+    subtitle="Participa en una tarde de desarrollo de paquetes, proyectos y visualización de datos."
+    brief1="Pronto más detalles. ¡Inscripción a partir del 1 de abril!"
   #  brief2="But you __MUST__ hardcode html links <a href= 'www.google.com' > google  </a> for further info."
   #  location= "The place we're going it"
   #  dates = "17 November 2019"
@@ -241,9 +241,9 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
       [[params.about.events]]
         img = "equipo.png"
-        date = "abril 2020"
+        date = "1 abril 2020"
         title = "Registro para el evento del viernes"
-        description = "Trabaja en conjunto con la comunidad de R"
+        description = "Trabaja en conjunto con la comunidad"
 
   # Location section
   [params.location]
@@ -289,6 +289,15 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       ]
 
     [[params.team.members]]
+      img = "gaby-sandoval.jpeg"
+      name = "Gabriela Sandoval"
+      position = "R-Ladies Santiago"
+      social = [
+      ["fa-twitter", "https://twitter.com/GabySandovalM"],
+      ["fa-github", "https://github.com/GabySandovalM"]
+      ]
+
+    [[params.team.members]]
       img = "patricio-cofre.jpeg"
       name = "Patricio Cofré"
       position = "Grupo de Usuarios de R - Santiago"
@@ -296,15 +305,6 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       ["fa-twitter", "https://twitter.com/pcofre"],
       ["fa-laptop", "http://metricarts.com"],
       ["fa-linkedin", "http://www.linkedin.com/in/pcofre"]
-      ]
-
-    [[params.team.members]]
-      img = "gaby-sandoval.jpeg"
-      name = "Gabriela Sandoval"
-      position = "R-Ladies Santiago"
-      social = [
-      ["fa-twitter", "https://twitter.com/GabySandovalM"],
-      ["fa-github", "https://github.com/GabySandovalM"]
       ]
 
       [[params.team.members]]

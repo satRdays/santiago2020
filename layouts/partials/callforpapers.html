@@ -1,0 +1,17 @@
+{{ "<!-- callforpapers -->" | safeHTML }}
+<section id="callforpapers" {{ if .Site.Params.callforpapers.bg }}
+class="bg-light-gray"
+{{ end }}>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-14 text-center">
+        <h2 class="section-heading">{{ with .Site.Params.callforpapers.title }}{{ . | markdownify }}{{ end }}</h2>
+      </div>
+    </div>
+    <div class="col-lg-14 text-center">
+        <p style="font-size:18px">
+             ¿Has estado utilizando R para resolver preguntas o problemas en tu área? ¿Creaste un paquete o una aplicación Shiny? ¿Quieres compartir estrategias de análisis o flujos de trabajo? ¿Utilizas R en conjunto con otros lenguajes de programación o plataformas? ¡Presenta tu trabajo! satRday Santiago es un evento de y para la comunidad, cuyo objetivo es compartir los usos que se le dan a R en la academia, la industria, organismos públicos, ONGs, iniciativas comunitarias, etc. <br>
+             Envía tu propuesta de charla de 25 minutos o presentación relámpago a través de <a href="https://docs.google.com/forms/d/e/1FAIpQLSefxx0qbY9nnbWHOquIXaZrl7N-fOkKgROaPiIkpQ6fQXdFOQ/viewform?usp=send_form">este formulario</a>.
+        </p>
+    </div>
+</section>
