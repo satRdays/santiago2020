@@ -427,9 +427,9 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       title = "GitHub"
 
     [[params.footer.quicklinks]]
-      text = "Privacy Policy"
-      link = "#"
+      text = "Imagen portada: Javmoraga"
+      link = "https://es.m.wikipedia.org/wiki/Archivo:Santiago_de_Chile_de_noche.jpg"
 
     [[params.footer.quicklinks]]
-      text = "Terms of Use"
-      link = "#"
+      text = "Licencia imagen: CC BY-SA 3.0"
+      link = "https://creativecommons.org/licenses/by-sa/3.0/deed.es"
