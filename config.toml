@@ -338,8 +338,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       link = "https://www.microsoft.com/es-cl/"
 
     [[params.clients]]
-      logo = ""
-      link = "#"
+      logo = "stickermule.png"
+      link = "http://www.stickermule.com/supports/satrdaysantiago"
 
     [[params.clients]]
       logo = ""
