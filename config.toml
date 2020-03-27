@@ -21,7 +21,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
   name = "satRday Santiago"
-  description = "Conferencia de R en Santiago de Chile"
+  description = "Conferencia de R en Santiago de Chile - segundo semestre 2020"
   # email = "your@email.com"
 
   # Link custom assets relative to /static
@@ -97,7 +97,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     [[params.services.row.list]]
       icon = "fa-clock-o"
       title = "Cuándo"
-      description = "18 de abril en EYU"
+      description = "Segundo semestre 2020"
       url = "#"
 
     [[params.services.row.list]]
@@ -172,7 +172,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   [params.hackathon]
     enable = true
     bg = false
-    title = "Evento pre-conferencia: viernes 17 de abril"
+    title = "Evento pre-conferencia: fecha por definir"
     subtitle="Participa en una tarde de desarrollo de paquetes, proyectos y visualización de datos."
     brief1="Pronto más detalles. ¡Inscripción a partir del 1 de abril!"
   #  brief2="But you __MUST__ hardcode html links <a href= 'www.google.com' > google  </a> for further info."
@@ -210,7 +210,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     enable = true
     title = "Fechas importantes"
     subtitle = "¡Atención!"
-    endpoint = "satRday Santiago 18/04/2020"
+    endpoint = "segundo semestre 2020"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
@@ -235,13 +235,13 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
     [[params.about.events]]
       img = "deadline.png"
-      date = "15 de marzo 2020"
+      date = "segundo semestre 2020"
       title = "Fin envío de propuestas"
       description = "Cierre del llamado a presentación de trabajos"
 
       [[params.about.events]]
         img = "equipo.png"
-        date = "1 abril 2020"
+        date = "segundo semestre"
         title = "Registro para el evento del viernes"
         description = "Trabaja en conjunto con la comunidad"
 
